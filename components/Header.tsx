@@ -24,14 +24,15 @@ const Header: React.FC = () => {
         
         {/* Logo */}
         <h1 className="font-extrabold text-xl tracking-wide">
-          AI HR Recruit
+           HR Recruit
         </h1>
+
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
           <a href="#home" className="hover:text-blue-600 dark:hover:text-blue-400">Home</a>
           <a href="#features" className="hover:text-blue-600 dark:hover:text-blue-400">Features</a>
-          <a href="#pricing" className="hover:text-blue-600 dark:hover:text-blue-400">Pricing</a>
+          <a href="#pricing" className="hover:text-blue-600 dark:hover:text-blue-400"></a>
           <a href="#login" className="hover:text-blue-600 dark:hover:text-blue-400">Login</a>
         </nav>
 
@@ -50,7 +51,7 @@ const Header: React.FC = () => {
           <nav className="flex flex-col p-6 gap-4 text-base">
             <a onClick={() => setOpen(false)} href="#home">Home</a>
             <a onClick={() => setOpen(false)} href="#features">Features</a>
-            <a onClick={() => setOpen(false)} href="#pricing">Pricing</a>
+            <a onClick={() => setOpen(false)} href="#pricing"></a>
             <a onClick={() => setOpen(false)} href="#login">Login</a>
           </nav>
         </div>
