@@ -24,7 +24,7 @@ const Header: React.FC = () => {
         
         {/* Logo */}
         <h1 className="font-extrabold text-xl tracking-wide">
-           HR Recruit
+           HR Recruitment
         </h1>
 
 
